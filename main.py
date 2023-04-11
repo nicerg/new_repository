@@ -10,3 +10,6 @@ def mane_function(month_number):
     for number, name in enumerate(MONTHS):
       if month_number == number + 1:
         return 'It is ' + name
+  elif month_number not in range(1, 13):
+    raise Exception('Only integers from 1 till 12 are allowed !')
+    return False
