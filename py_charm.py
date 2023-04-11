@@ -9,3 +9,4 @@ def divide_int_numbers(a, b):
   else:
     raise My_exceptions.exception3
     return False
+  print('Second commit to the mane branch')
