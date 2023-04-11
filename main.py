@@ -13,3 +13,6 @@ def mane_function(month_number):
   elif month_number not in range(1, 13):
     raise Exception('Only integers from 1 till 12 are allowed !')
     return False
+  else: 
+    raise Exception('Some unexpected Exception !')
+    return False
