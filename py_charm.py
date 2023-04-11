@@ -9,9 +9,6 @@ def divide_int_numbers(a, b):
   else:
     raise My_exceptions.exception3
     return False
-<<<<<<< HEAD
-
-=======
 
 class My_exceptions(object):
   class exception1(Exception):
