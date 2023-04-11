@@ -20,4 +20,3 @@ class My_exceptions(object):
   class exception3(Exception):
     def __str__(self):
       return "Some unexpected Exception !"
->>>>>>> test
