@@ -16,3 +16,5 @@ def mane_function(month_number):
   else: 
     raise Exception('Some unexpected Exception !')
     return False
+  print('Some text for 4-th commit')
+  print('4-th commit will be done into master branch')
